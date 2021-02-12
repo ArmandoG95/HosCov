@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace HosCovPro
 {
-    public partial class frmpruebaCovid : Form
+    public partial class FrmRegVacuna : Form
     {
-        public frmpruebaCovid()
+        public FrmRegVacuna()
         {
             InitializeComponent();
         }
 
-        private void lblNombre_Click(object sender, EventArgs e)
+        private void FrmRegVacuna_Load(object sender, EventArgs e)
         {
 
         }
