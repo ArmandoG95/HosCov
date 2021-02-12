@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HosCovPro", "HosCovPro\HosCovPro.csproj", "{136CF6B6-8340-4012-B7CB-F6C7E8BA469F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{136CF6B6-8340-4012-B7CB-F6C7E8BA469F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136CF6B6-8340-4012-B7CB-F6C7E8BA469F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136CF6B6-8340-4012-B7CB-F6C7E8BA469F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136CF6B6-8340-4012-B7CB-F6C7E8BA469F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98CBED87-2E12-427F-8C74-B126DD08669A}
+	EndGlobalSection
+EndGlobal
