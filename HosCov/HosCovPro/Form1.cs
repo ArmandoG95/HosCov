@@ -16,5 +16,10 @@ namespace HosCovPro
         {
             InitializeComponent();
         }
+
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
