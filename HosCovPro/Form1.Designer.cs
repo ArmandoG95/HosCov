@@ -33,9 +33,9 @@
             this.bttPersonalMD = new System.Windows.Forms.Button();
             this.bttCrearNuevoPerfil = new System.Windows.Forms.Button();
             this.lblIdentificate = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pctLogo = new System.Windows.Forms.PictureBox();
             this.bttExit = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // bttPaciente
@@ -78,15 +78,16 @@
             this.lblIdentificate.TabIndex = 3;
             this.lblIdentificate.Text = "Identifícate";
             // 
-            // pictureBox1
+            // pctLogo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 91);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
+            this.pctLogo.Location = new System.Drawing.Point(12, 12);
+            this.pctLogo.Name = "pctLogo";
+            this.pctLogo.Size = new System.Drawing.Size(194, 91);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctLogo.TabIndex = 4;
+            this.pctLogo.TabStop = false;
+            this.pctLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // bttExit
             // 
@@ -103,7 +104,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bttExit);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.lblIdentificate);
             this.Controls.Add(this.bttCrearNuevoPerfil);
             this.Controls.Add(this.bttPersonalMD);
@@ -112,7 +113,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,7 +125,7 @@
         private System.Windows.Forms.Button bttPersonalMD;
         private System.Windows.Forms.Button bttCrearNuevoPerfil;
         private System.Windows.Forms.Label lblIdentificate;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctLogo;
         private System.Windows.Forms.Button bttExit;
     }
 }
