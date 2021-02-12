@@ -28,20 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.pctLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(52, 105);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.TabIndex = 0;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
+            // 
+            // pctLogo
+            // 
+            this.pctLogo.Image = global::HosCovPro.Properties.Resources.HosCov_Logo;
+            this.pctLogo.Location = new System.Drawing.Point(675, 12);
+            this.pctLogo.Name = "pctLogo";
+            this.pctLogo.Size = new System.Drawing.Size(206, 88);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctLogo.TabIndex = 1;
+            this.pctLogo.TabStop = false;
             // 
             // frmpruebaCovid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(893, 530);
+            this.Controls.Add(this.pctLogo);
+            this.Controls.Add(this.lblNombre);
             this.Name = "frmpruebaCovid";
             this.Text = "Prueba Covid";
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.PictureBox pctLogo;
     }
 }
 
