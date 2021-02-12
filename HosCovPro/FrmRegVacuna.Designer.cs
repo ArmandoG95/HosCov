@@ -35,9 +35,9 @@
             // pctLogo
             // 
             this.pctLogo.Image = global::HosCovPro.Properties.Resources.WhatsApp_Image_2021_02_12_at_12_46_15_PM;
-            this.pctLogo.Location = new System.Drawing.Point(12, 12);
+            this.pctLogo.Location = new System.Drawing.Point(16, 17);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(222, 111);
+            this.pctLogo.Size = new System.Drawing.Size(260, 125);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
@@ -46,6 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1332, 891);
             this.Controls.Add(this.pctLogo);
             this.Name = "FrmRegVacuna";

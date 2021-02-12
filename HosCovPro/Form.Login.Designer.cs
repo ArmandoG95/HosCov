@@ -40,30 +40,33 @@
             // 
             // bttPaciente
             // 
-            this.bttPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttPaciente.Location = new System.Drawing.Point(182, 219);
+            this.bttPaciente.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttPaciente.Location = new System.Drawing.Point(601, 325);
+            this.bttPaciente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttPaciente.Name = "bttPaciente";
-            this.bttPaciente.Size = new System.Drawing.Size(134, 74);
+            this.bttPaciente.Size = new System.Drawing.Size(157, 53);
             this.bttPaciente.TabIndex = 0;
             this.bttPaciente.Text = "Paciente";
             this.bttPaciente.UseVisualStyleBackColor = true;
             // 
             // bttPersonalMD
             // 
-            this.bttPersonalMD.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttPersonalMD.Location = new System.Drawing.Point(437, 219);
+            this.bttPersonalMD.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttPersonalMD.Location = new System.Drawing.Point(298, 325);
+            this.bttPersonalMD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttPersonalMD.Name = "bttPersonalMD";
-            this.bttPersonalMD.Size = new System.Drawing.Size(135, 74);
+            this.bttPersonalMD.Size = new System.Drawing.Size(157, 53);
             this.bttPersonalMD.TabIndex = 1;
-            this.bttPersonalMD.Text = "Personal MD";
+            this.bttPersonalMD.Text = "Personal Médico";
             this.bttPersonalMD.UseVisualStyleBackColor = true;
             // 
             // bttCrearNuevoPerfil
             // 
-            this.bttCrearNuevoPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttCrearNuevoPerfil.Location = new System.Drawing.Point(312, 310);
+            this.bttCrearNuevoPerfil.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttCrearNuevoPerfil.Location = new System.Drawing.Point(447, 426);
+            this.bttCrearNuevoPerfil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttCrearNuevoPerfil.Name = "bttCrearNuevoPerfil";
-            this.bttCrearNuevoPerfil.Size = new System.Drawing.Size(135, 75);
+            this.bttCrearNuevoPerfil.Size = new System.Drawing.Size(157, 53);
             this.bttCrearNuevoPerfil.TabIndex = 2;
             this.bttCrearNuevoPerfil.Text = "Crear nuevo perfil";
             this.bttCrearNuevoPerfil.UseVisualStyleBackColor = true;
@@ -71,19 +74,22 @@
             // lblIdentificate
             // 
             this.lblIdentificate.AutoSize = true;
-            this.lblIdentificate.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdentificate.Location = new System.Drawing.Point(212, 30);
+            this.lblIdentificate.Font = new System.Drawing.Font("Palatino Linotype", 25F);
+            this.lblIdentificate.Location = new System.Drawing.Point(415, 169);
+            this.lblIdentificate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIdentificate.Name = "lblIdentificate";
-            this.lblIdentificate.Size = new System.Drawing.Size(344, 73);
+            this.lblIdentificate.Size = new System.Drawing.Size(236, 56);
             this.lblIdentificate.TabIndex = 3;
             this.lblIdentificate.Text = "Identifícate";
+            this.lblIdentificate.Click += new System.EventHandler(this.lblIdentificate_Click);
             // 
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(12, 12);
+            this.pctLogo.Location = new System.Drawing.Point(16, 17);
+            this.pctLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(194, 91);
+            this.pctLogo.Size = new System.Drawing.Size(260, 125);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 4;
             this.pctLogo.TabStop = false;
@@ -91,24 +97,29 @@
             // 
             // bttExit
             // 
-            this.bttExit.Location = new System.Drawing.Point(647, 395);
+            this.bttExit.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttExit.Location = new System.Drawing.Point(897, 557);
+            this.bttExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttExit.Name = "bttExit";
-            this.bttExit.Size = new System.Drawing.Size(101, 32);
+            this.bttExit.Size = new System.Drawing.Size(157, 53);
             this.bttExit.TabIndex = 5;
             this.bttExit.Text = "Exit";
             this.bttExit.UseVisualStyleBackColor = true;
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(1067, 623);
             this.Controls.Add(this.bttExit);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.lblIdentificate);
             this.Controls.Add(this.bttCrearNuevoPerfil);
             this.Controls.Add(this.bttPersonalMD);
             this.Controls.Add(this.bttPaciente);
+            this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
