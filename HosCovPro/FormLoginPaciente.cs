@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace HosCovPro
 {
-    public partial class frmLogin : Form
+    public partial class FormLoginPaciente : Form
     {
-        public frmLogin()
+        public FormLoginPaciente()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
