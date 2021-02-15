@@ -10,24 +10,29 @@ using System.Windows.Forms;
 
 namespace HosCovPro
 {
-    public partial class frmpruebaCovid : Form
+    public partial class FrmLoginPacientes : Form
     {
-        public frmpruebaCovid()
+        public FrmLoginPacientes()
         {
             InitializeComponent();
         }
 
-        private void lblNombre_Click(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void lblTitulo_Click(object sender, EventArgs e)
+        private void lblIngresarDatos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

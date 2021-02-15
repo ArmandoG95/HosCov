@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form.Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form.Login.Designer.cs">
+      <DependentUpon>Form.Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form.LoginPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.LoginPacientes.Designer.cs">
+      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegVacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegVacuna.Designer.cs">
+      <DependentUpon>FrmRegVacuna.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form.Login.resx">
+      <DependentUpon>Form.Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.LoginPacientes.resx">
+      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegVacuna.resx">
+      <DependentUpon>FrmRegVacuna.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2021-02-12 at 12.46.15 PM.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
