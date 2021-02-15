@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pctLogo = new System.Windows.Forms.PictureBox();
+            this.lblTitulo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,23 +43,37 @@
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(294, 17);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(1026, 39);
+            this.lblTitulo.TabIndex = 1;
+            this.lblTitulo.Text = "Bienvenido al registro para la vacuna de covid del hospital HosCov";
+            // 
             // FrmRegVacuna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1332, 891);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.pctLogo);
             this.Name = "FrmRegVacuna";
             this.Text = "FrmRegVacuna";
             this.Load += new System.EventHandler(this.FrmRegVacuna_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pctLogo;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
