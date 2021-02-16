@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace HosCovPro
 {
-    public partial class frmpruebaCovid : Form
+    public partial class FormLoginPaciente : Form
     {
-        public frmpruebaCovid()
+        public FormLoginPaciente()
         {
             InitializeComponent();
-        }
-
-        private void lblNombre_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

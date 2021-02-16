@@ -26,5 +26,10 @@ namespace HosCovPro
         {
 
         }
+
+        private void lblIdentificate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

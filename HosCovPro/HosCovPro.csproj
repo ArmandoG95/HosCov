@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Agendar cita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Agendar cita.Designer.cs">
+      <DependentUpon>Agendar cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form.Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.Login.Designer.cs">
+      <DependentUpon>Form.Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form.LoginPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.LoginPacientes.Designer.cs">
+      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPruebaCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPruebaCovid.Designer.cs">
+      <DependentUpon>frmPruebaCovid.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLoginPersonalMedico.cs">
       <SubType>Form</SubType>
@@ -66,8 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Agendar cita.resx">
+      <DependentUpon>Agendar cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.Login.resx">
+      <DependentUpon>Form.Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.LoginPacientes.resx">
+      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPruebaCovid.resx">
+      <DependentUpon>frmPruebaCovid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLoginPersonalMedico.resx">
       <DependentUpon>FrmLoginPersonalMedico.cs</DependentUpon>
