@@ -48,6 +48,10 @@
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblSintomas = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.lblHora = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.prgEnviado = new System.Windows.Forms.ProgressBar();
+            this.btnEnviar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +71,7 @@
             this.pctLogo.Location = new System.Drawing.Point(2, 9);
             this.pctLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(260, 125);
+            this.pctLogo.Size = new System.Drawing.Size(155, 71);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 6;
             this.pctLogo.TabStop = false;
@@ -112,7 +116,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(2, 171);
+            this.monthCalendar1.Location = new System.Drawing.Point(2, 133);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 25;
             // 
@@ -120,7 +124,7 @@
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(26, 138);
+            this.lblFecha.Location = new System.Drawing.Point(27, 99);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(202, 25);
             this.lblFecha.TabIndex = 26;
@@ -250,12 +254,65 @@
             this.checkedListBox1.Size = new System.Drawing.Size(258, 94);
             this.checkedListBox1.TabIndex = 37;
             // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Location = new System.Drawing.Point(12, 307);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(195, 25);
+            this.lblHora.TabIndex = 38;
+            this.lblHora.Text = "Seleccione una Hora";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "7:00",
+            "7:50",
+            "8:40",
+            "9:30",
+            "11:20",
+            "12:10",
+            "13:00",
+            "15:00",
+            "15:50",
+            "16:40",
+            "18:30",
+            "19:20"});
+            this.comboBox1.Location = new System.Drawing.Point(213, 310);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(77, 21);
+            this.comboBox1.TabIndex = 39;
+            // 
+            // prgEnviado
+            // 
+            this.prgEnviado.Location = new System.Drawing.Point(32, 388);
+            this.prgEnviado.Name = "prgEnviado";
+            this.prgEnviado.Size = new System.Drawing.Size(139, 31);
+            this.prgEnviado.TabIndex = 41;
+            this.prgEnviado.Value = 23;
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Location = new System.Drawing.Point(190, 388);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(94, 31);
+            this.btnEnviar.TabIndex = 40;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            // 
             // frmAgendarCita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prgEnviado);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lblHora);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.lblSintomas);
             this.Controls.Add(this.rdbFemenino);
@@ -304,5 +361,9 @@
         private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.Label lblSintomas;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ProgressBar prgEnviado;
+        private System.Windows.Forms.Button btnEnviar;
     }
 }
