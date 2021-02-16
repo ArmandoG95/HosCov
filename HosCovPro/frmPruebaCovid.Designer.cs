@@ -36,16 +36,18 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.lblFecha = new System.Windows.Forms.Label();
-            this.cmbDia = new System.Windows.Forms.ComboBox();
-            this.cmbAño = new System.Windows.Forms.ComboBox();
-            this.cmbMes = new System.Windows.Forms.ComboBox();
             this.lblEdad = new System.Windows.Forms.Label();
-            this.nmcEdad = new System.Windows.Forms.NumericUpDown();
             this.rdbMasculino = new System.Windows.Forms.RadioButton();
             this.rdbFemenino = new System.Windows.Forms.RadioButton();
             this.lblSexo = new System.Windows.Forms.Label();
+            this.lblEmbarazo = new System.Windows.Forms.Label();
+            this.chcSi = new System.Windows.Forms.CheckBox();
+            this.chcNo = new System.Windows.Forms.CheckBox();
+            this.btnEnviar = new System.Windows.Forms.Button();
+            this.cmbEdad = new System.Windows.Forms.ComboBox();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.prgEnviado = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nmcEdad)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -111,182 +113,11 @@
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(383, 143);
+            this.lblFecha.Location = new System.Drawing.Point(589, 143);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(199, 25);
             this.lblFecha.TabIndex = 10;
             this.lblFecha.Text = "Fecha de Nacimiento";
-            // 
-            // cmbDia
-            // 
-            this.cmbDia.FormattingEnabled = true;
-            this.cmbDia.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31"});
-            this.cmbDia.Location = new System.Drawing.Point(588, 143);
-            this.cmbDia.Name = "cmbDia";
-            this.cmbDia.Size = new System.Drawing.Size(47, 21);
-            this.cmbDia.TabIndex = 11;
-            // 
-            // cmbAño
-            // 
-            this.cmbAño.FormattingEnabled = true;
-            this.cmbAño.Items.AddRange(new object[] {
-            "1921",
-            "1922",
-            "1923",
-            "1924",
-            "1925",
-            "1926",
-            "1927",
-            "1928",
-            "1929",
-            "1930",
-            "1931",
-            "1932",
-            "1933",
-            "1934",
-            "1935",
-            "1936",
-            "1937",
-            "1938",
-            "1939",
-            "1940",
-            "1941",
-            "1942",
-            "1943",
-            "1944",
-            "1945",
-            "1946",
-            "1947",
-            "1948",
-            "1949",
-            "1950",
-            "1951",
-            "1952",
-            "1953",
-            "1954",
-            "1955",
-            "1956",
-            "1957",
-            "1958",
-            "1959",
-            "1960",
-            "1961",
-            "1962",
-            "1963",
-            "1964",
-            "1965",
-            "1966",
-            "1967",
-            "1968",
-            "1969",
-            "1970",
-            "1971",
-            "1972",
-            "1973",
-            "1974",
-            "1975",
-            "1976",
-            "1977",
-            "1978",
-            "1979",
-            "1980",
-            "1981",
-            "1982",
-            "1983",
-            "1984",
-            "1985",
-            "1986",
-            "1987",
-            "1988",
-            "1989",
-            "1990",
-            "1991",
-            "1992",
-            "1993",
-            "1994",
-            "1995",
-            "1996",
-            "1997",
-            "1998",
-            "1999",
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021"});
-            this.cmbAño.Location = new System.Drawing.Point(694, 143);
-            this.cmbAño.Name = "cmbAño";
-            this.cmbAño.Size = new System.Drawing.Size(47, 21);
-            this.cmbAño.TabIndex = 12;
-            // 
-            // cmbMes
-            // 
-            this.cmbMes.FormattingEnabled = true;
-            this.cmbMes.Items.AddRange(new object[] {
-            "Enero",
-            "Febrero",
-            "Marzo",
-            "Abril",
-            "Mayo",
-            "Junio",
-            "Julio",
-            "Agosto",
-            "Septiembre",
-            "Octubre",
-            "Noviembre",
-            "Diciembre"});
-            this.cmbMes.Location = new System.Drawing.Point(641, 143);
-            this.cmbMes.Name = "cmbMes";
-            this.cmbMes.Size = new System.Drawing.Size(47, 21);
-            this.cmbMes.TabIndex = 13;
             // 
             // lblEdad
             // 
@@ -297,14 +128,6 @@
             this.lblEdad.Size = new System.Drawing.Size(57, 25);
             this.lblEdad.TabIndex = 14;
             this.lblEdad.Text = "Edad";
-            // 
-            // nmcEdad
-            // 
-            this.nmcEdad.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nmcEdad.Location = new System.Drawing.Point(87, 160);
-            this.nmcEdad.Name = "nmcEdad";
-            this.nmcEdad.Size = new System.Drawing.Size(120, 33);
-            this.nmcEdad.TabIndex = 15;
             // 
             // rdbMasculino
             // 
@@ -340,20 +163,190 @@
             this.lblSexo.TabIndex = 16;
             this.lblSexo.Text = "Sexo";
             // 
+            // lblEmbarazo
+            // 
+            this.lblEmbarazo.AutoSize = true;
+            this.lblEmbarazo.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmbarazo.Location = new System.Drawing.Point(12, 255);
+            this.lblEmbarazo.Name = "lblEmbarazo";
+            this.lblEmbarazo.Size = new System.Drawing.Size(100, 25);
+            this.lblEmbarazo.TabIndex = 19;
+            this.lblEmbarazo.Text = "Embarazo";
+            // 
+            // chcSi
+            // 
+            this.chcSi.AutoSize = true;
+            this.chcSi.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chcSi.Location = new System.Drawing.Point(118, 257);
+            this.chcSi.Name = "chcSi";
+            this.chcSi.Size = new System.Drawing.Size(43, 25);
+            this.chcSi.TabIndex = 20;
+            this.chcSi.Text = "Si";
+            this.chcSi.UseVisualStyleBackColor = true;
+            // 
+            // chcNo
+            // 
+            this.chcNo.AutoSize = true;
+            this.chcNo.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chcNo.Location = new System.Drawing.Point(182, 255);
+            this.chcNo.Name = "chcNo";
+            this.chcNo.Size = new System.Drawing.Size(56, 29);
+            this.chcNo.TabIndex = 21;
+            this.chcNo.Text = "No";
+            this.chcNo.UseVisualStyleBackColor = true;
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Location = new System.Drawing.Point(694, 407);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(94, 31);
+            this.btnEnviar.TabIndex = 22;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            // 
+            // cmbEdad
+            // 
+            this.cmbEdad.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbEdad.FormattingEnabled = true;
+            this.cmbEdad.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100"});
+            this.cmbEdad.Location = new System.Drawing.Point(121, 159);
+            this.cmbEdad.Name = "cmbEdad";
+            this.cmbEdad.Size = new System.Drawing.Size(89, 29);
+            this.cmbEdad.TabIndex = 23;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(536, 173);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 24;
+            // 
+            // prgEnviado
+            // 
+            this.prgEnviado.Location = new System.Drawing.Point(536, 407);
+            this.prgEnviado.Name = "prgEnviado";
+            this.prgEnviado.Size = new System.Drawing.Size(139, 31);
+            this.prgEnviado.TabIndex = 25;
+            this.prgEnviado.Value = 12;
+            this.prgEnviado.Click += new System.EventHandler(this.prgEnviado_Click);
+            // 
             // frmPruebaCovid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prgEnviado);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.cmbEdad);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.chcNo);
+            this.Controls.Add(this.chcSi);
+            this.Controls.Add(this.lblEmbarazo);
             this.Controls.Add(this.rdbFemenino);
             this.Controls.Add(this.rdbMasculino);
             this.Controls.Add(this.lblSexo);
-            this.Controls.Add(this.nmcEdad);
             this.Controls.Add(this.lblEdad);
-            this.Controls.Add(this.cmbMes);
-            this.Controls.Add(this.cmbAño);
-            this.Controls.Add(this.cmbDia);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.txtApellidos);
             this.Controls.Add(this.txtNombre);
@@ -364,7 +357,6 @@
             this.Name = "frmPruebaCovid";
             this.Text = "Solicitud Prueba Covid";
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nmcEdad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,13 +371,16 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.ComboBox cmbDia;
-        private System.Windows.Forms.ComboBox cmbAño;
-        private System.Windows.Forms.ComboBox cmbMes;
         private System.Windows.Forms.Label lblEdad;
-        private System.Windows.Forms.NumericUpDown nmcEdad;
         private System.Windows.Forms.RadioButton rdbMasculino;
         private System.Windows.Forms.RadioButton rdbFemenino;
         private System.Windows.Forms.Label lblSexo;
+        private System.Windows.Forms.Label lblEmbarazo;
+        private System.Windows.Forms.CheckBox chcSi;
+        private System.Windows.Forms.CheckBox chcNo;
+        private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.ComboBox cmbEdad;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.ProgressBar prgEnviado;
     }
 }
