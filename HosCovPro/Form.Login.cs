@@ -44,5 +44,10 @@ namespace HosCovPro
             FrmLoginPersonalMedico.Show();
 
         }
+
+        private void bttExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

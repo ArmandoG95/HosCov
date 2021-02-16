@@ -83,7 +83,6 @@
             this.lblIdentificate.Size = new System.Drawing.Size(236, 56);
             this.lblIdentificate.TabIndex = 3;
             this.lblIdentificate.Text = "Identifícate";
-            this.lblIdentificate.Click += new System.EventHandler(this.lblIdentificate_Click);
             // 
             // pctLogo
             // 
@@ -107,6 +106,7 @@
             this.bttExit.TabIndex = 5;
             this.bttExit.Text = "Exit";
             this.bttExit.UseVisualStyleBackColor = true;
+            this.bttExit.Click += new System.EventHandler(this.bttExit_Click);
             // 
             // frmLogin
             // 
