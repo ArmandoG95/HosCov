@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblCondiciones.Text" xml:space="preserve">
+    <value>1. Recibe medicación que baje sus defensas
+2. Posee una enfermedad oncohematológica
+3. Inmunodeficiencias congénitas o adquiridas
+4. Ha recibido un transplante
+5. Tuvo una reacción alérgica a algún componente 
+    de una vacuna o vacuna
+6. Esta o sospecha estar embarazada
+7. Se encuentra amamantando</value>
+  </data>
 </root>

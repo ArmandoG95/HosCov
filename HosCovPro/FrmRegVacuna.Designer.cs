@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegVacuna));
             this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
@@ -62,10 +63,17 @@
             this.lblNumCelular = new System.Windows.Forms.Label();
             this.lblTelefonoFijo = new System.Windows.Forms.Label();
             this.lblCorreoElectronico = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.grpCondiciones = new System.Windows.Forms.GroupBox();
+            this.lblCondiciones = new System.Windows.Forms.Label();
+            this.chcNo = new System.Windows.Forms.CheckBox();
+            this.chcSi = new System.Windows.Forms.CheckBox();
+            this.lblEspecifiqueCuales = new System.Windows.Forms.Label();
+            this.txtEspecifiqueCuales = new System.Windows.Forms.TextBox();
+            this.btnEnviar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.grpDatosPersonales.SuspendLayout();
             this.grpDatosDeContacto.SuspendLayout();
+            this.grpCondiciones.SuspendLayout();
             this.SuspendLayout();
             // 
             // pctLogo
@@ -73,7 +81,7 @@
             this.pctLogo.Image = global::HosCovPro.Properties.Resources.WhatsApp_Image_2021_02_12_at_12_46_15_PM;
             this.pctLogo.Location = new System.Drawing.Point(16, 17);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(260, 125);
+            this.pctLogo.Size = new System.Drawing.Size(291, 135);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
@@ -83,7 +91,7 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(294, 17);
+            this.lblTitulo.Location = new System.Drawing.Point(313, 30);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(984, 38);
             this.lblTitulo.TabIndex = 1;
@@ -280,15 +288,15 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(448, 58);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1451, 9);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(388, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(333, 22);
             this.dateTimePicker1.TabIndex = 6;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(298, 63);
+            this.lblFecha.Location = new System.Drawing.Point(1336, 9);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(98, 17);
             this.lblFecha.TabIndex = 11;
@@ -322,7 +330,7 @@
             this.grpDatosDeContacto.Controls.Add(this.lblCorreoElectronico);
             this.grpDatosDeContacto.Location = new System.Drawing.Point(478, 179);
             this.grpDatosDeContacto.Name = "grpDatosDeContacto";
-            this.grpDatosDeContacto.Size = new System.Drawing.Size(717, 422);
+            this.grpDatosDeContacto.Size = new System.Drawing.Size(717, 463);
             this.grpDatosDeContacto.TabIndex = 13;
             this.grpDatosDeContacto.TabStop = false;
             this.grpDatosDeContacto.Text = "Datos de Contacto";
@@ -442,14 +450,76 @@
             this.lblCorreoElectronico.Text = "Correo electronico: ";
             this.lblCorreoElectronico.Click += new System.EventHandler(this.label2_Click);
             // 
-            // groupBox1
+            // grpCondiciones
             // 
-            this.groupBox1.Location = new System.Drawing.Point(1261, 185);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(455, 416);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.grpCondiciones.Controls.Add(this.txtEspecifiqueCuales);
+            this.grpCondiciones.Controls.Add(this.lblEspecifiqueCuales);
+            this.grpCondiciones.Controls.Add(this.chcSi);
+            this.grpCondiciones.Controls.Add(this.chcNo);
+            this.grpCondiciones.Controls.Add(this.lblCondiciones);
+            this.grpCondiciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpCondiciones.Location = new System.Drawing.Point(1230, 179);
+            this.grpCondiciones.Name = "grpCondiciones";
+            this.grpCondiciones.Size = new System.Drawing.Size(540, 463);
+            this.grpCondiciones.TabIndex = 28;
+            this.grpCondiciones.TabStop = false;
+            this.grpCondiciones.Text = "¿Usted presenta alguna de las siguientes condiciones?";
+            // 
+            // lblCondiciones
+            // 
+            this.lblCondiciones.AutoSize = true;
+            this.lblCondiciones.Location = new System.Drawing.Point(19, 46);
+            this.lblCondiciones.Name = "lblCondiciones";
+            this.lblCondiciones.Size = new System.Drawing.Size(388, 160);
+            this.lblCondiciones.TabIndex = 28;
+            this.lblCondiciones.Text = resources.GetString("lblCondiciones.Text");
+            // 
+            // chcNo
+            // 
+            this.chcNo.AutoSize = true;
+            this.chcNo.Location = new System.Drawing.Point(158, 241);
+            this.chcNo.Name = "chcNo";
+            this.chcNo.Size = new System.Drawing.Size(56, 24);
+            this.chcNo.TabIndex = 29;
+            this.chcNo.Text = "NO";
+            this.chcNo.UseVisualStyleBackColor = true;
+            this.chcNo.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // chcSi
+            // 
+            this.chcSi.AutoSize = true;
+            this.chcSi.Location = new System.Drawing.Point(53, 241);
+            this.chcSi.Name = "chcSi";
+            this.chcSi.Size = new System.Drawing.Size(46, 24);
+            this.chcSi.TabIndex = 30;
+            this.chcSi.Text = "SI";
+            this.chcSi.UseVisualStyleBackColor = true;
+            this.chcSi.CheckedChanged += new System.EventHandler(this.chkSi_CheckedChanged);
+            // 
+            // lblEspecifiqueCuales
+            // 
+            this.lblEspecifiqueCuales.AutoSize = true;
+            this.lblEspecifiqueCuales.Location = new System.Drawing.Point(20, 283);
+            this.lblEspecifiqueCuales.Name = "lblEspecifiqueCuales";
+            this.lblEspecifiqueCuales.Size = new System.Drawing.Size(160, 20);
+            this.lblEspecifiqueCuales.TabIndex = 28;
+            this.lblEspecifiqueCuales.Text = "Especifique cuales: ";
+            // 
+            // txtEspecifiqueCuales
+            // 
+            this.txtEspecifiqueCuales.Location = new System.Drawing.Point(19, 306);
+            this.txtEspecifiqueCuales.Name = "txtEspecifiqueCuales";
+            this.txtEspecifiqueCuales.Size = new System.Drawing.Size(515, 27);
+            this.txtEspecifiqueCuales.TabIndex = 28;
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Location = new System.Drawing.Point(1643, 679);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(141, 64);
+            this.btnEnviar.TabIndex = 16;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.UseVisualStyleBackColor = true;
             // 
             // FrmRegVacuna
             // 
@@ -457,7 +527,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1837, 870);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.grpCondiciones);
             this.Controls.Add(this.grpDatosDeContacto);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.grpDatosPersonales);
@@ -465,13 +536,15 @@
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "FrmRegVacuna";
-            this.Text = "FrmRegVacuna";
+            this.Text = "Registro Vacuna COVID.";
             this.Load += new System.EventHandler(this.FrmRegVacuna_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.grpDatosPersonales.ResumeLayout(false);
             this.grpDatosPersonales.PerformLayout();
             this.grpDatosDeContacto.ResumeLayout(false);
             this.grpDatosDeContacto.PerformLayout();
+            this.grpCondiciones.ResumeLayout(false);
+            this.grpCondiciones.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,6 +586,12 @@
         private System.Windows.Forms.Label lblNumCelular;
         private System.Windows.Forms.Button btnConfirmaTuCorreoElectronico;
         private System.Windows.Forms.TextBox txtFechaDeNacimiento;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox grpCondiciones;
+        private System.Windows.Forms.CheckBox chcSi;
+        private System.Windows.Forms.CheckBox chcNo;
+        private System.Windows.Forms.Label lblCondiciones;
+        private System.Windows.Forms.TextBox txtEspecifiqueCuales;
+        private System.Windows.Forms.Label lblEspecifiqueCuales;
+        private System.Windows.Forms.Button btnEnviar;
     }
 }
