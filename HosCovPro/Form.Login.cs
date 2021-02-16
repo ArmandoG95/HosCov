@@ -31,5 +31,11 @@ namespace HosCovPro
         {
 
         }
+
+        private void bttPaciente_Click(object sender, EventArgs e)
+        {
+            FrmLoginPacientes frmLoginPacientes = new FrmLoginPacientes();
+            frmLoginPacientes.Show();
+        }
     }
 }

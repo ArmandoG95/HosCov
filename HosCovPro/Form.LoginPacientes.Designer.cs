@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblIngresarDatos = new System.Windows.Forms.Label();
+            this.lblIniciarSesion = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnAcceder = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pctLogo = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblIngresarDatos
+            // lblIniciarSesion
             // 
-            this.lblIngresarDatos.AutoSize = true;
-            this.lblIngresarDatos.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngresarDatos.Location = new System.Drawing.Point(469, 175);
-            this.lblIngresarDatos.Name = "lblIngresarDatos";
-            this.lblIngresarDatos.Size = new System.Drawing.Size(185, 37);
-            this.lblIngresarDatos.TabIndex = 0;
-            this.lblIngresarDatos.Text = "Iniciar sesión:";
-            this.lblIngresarDatos.Click += new System.EventHandler(this.lblIngresarDatos_Click);
+            this.lblIniciarSesion.AutoSize = true;
+            this.lblIniciarSesion.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIniciarSesion.Location = new System.Drawing.Point(469, 175);
+            this.lblIniciarSesion.Name = "lblIniciarSesion";
+            this.lblIniciarSesion.Size = new System.Drawing.Size(185, 37);
+            this.lblIniciarSesion.TabIndex = 0;
+            this.lblIniciarSesion.Text = "Iniciar sesión:";
+            this.lblIniciarSesion.Click += new System.EventHandler(this.lblIngresarDatos_Click);
             // 
             // lblUsuario
             // 
@@ -71,19 +71,19 @@
             this.lblContraseña.TabIndex = 2;
             this.lblContraseña.Text = "Contraseña:";
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(438, 266);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(247, 22);
-            this.textBox1.TabIndex = 3;
+            this.txtUsuario.Location = new System.Drawing.Point(438, 266);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(247, 22);
+            this.txtUsuario.TabIndex = 3;
             // 
-            // textBox2
+            // txtContraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(436, 327);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(249, 22);
-            this.textBox2.TabIndex = 4;
+            this.txtContraseña.Location = new System.Drawing.Point(436, 327);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(249, 22);
+            this.txtContraseña.TabIndex = 4;
             // 
             // btnAcceder
             // 
@@ -96,15 +96,15 @@
             this.btnAcceder.UseVisualStyleBackColor = true;
             this.btnAcceder.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox1
+            // pctLogo
             // 
-            this.pictureBox1.Image = global::HosCovPro.Properties.Resources.WhatsApp_Image_2021_02_12_at_12_46_15_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(260, 125);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.pctLogo.Image = global::HosCovPro.Properties.Resources.WhatsApp_Image_2021_02_12_at_12_46_15_PM;
+            this.pctLogo.Location = new System.Drawing.Point(16, 17);
+            this.pctLogo.Name = "pctLogo";
+            this.pctLogo.Size = new System.Drawing.Size(260, 125);
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctLogo.TabIndex = 6;
+            this.pctLogo.TabStop = false;
             // 
             // btnExit
             // 
@@ -115,6 +115,7 @@
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // FrmLoginPacientes
             // 
@@ -123,17 +124,17 @@
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1067, 623);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.lblIngresarDatos);
+            this.Controls.Add(this.lblIniciarSesion);
             this.Name = "FrmLoginPacientes";
             this.Text = "Login Pacientes";
             this.Load += new System.EventHandler(this.Form2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,13 +142,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblIngresarDatos;
+        private System.Windows.Forms.Label lblIniciarSesion;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnAcceder;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctLogo;
         private System.Windows.Forms.Button btnExit;
     }
 }
