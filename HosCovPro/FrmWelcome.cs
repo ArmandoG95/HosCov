@@ -41,5 +41,25 @@ namespace HosCovPro
         {
 
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFechaDeNacimientoP1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
