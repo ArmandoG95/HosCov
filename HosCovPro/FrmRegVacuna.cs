@@ -157,5 +157,12 @@ namespace HosCovPro
         {
 
         }
+
+        private void btnEnviar_Click(object sender, EventArgs e)
+        {
+            frmBarraDeCarga frmBarraDeCarga = new frmBarraDeCarga();
+            frmBarraDeCarga.Show();
+
+        }
     }
 }

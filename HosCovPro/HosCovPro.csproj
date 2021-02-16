@@ -64,11 +64,23 @@
     <Compile Include="Form.LoginPacientes.Designer.cs">
       <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBarraDeCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarraDeCarga.Designer.cs">
+      <DependentUpon>frmBarraDeCarga.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmExpediente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmExpediente.Designer.cs">
       <DependentUpon>FrmExpediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformaciónEnviada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformaciónEnviada.Designer.cs">
+      <DependentUpon>frmInformaciónEnviada.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPaciente.cs">
       <SubType>Form</SubType>
@@ -111,8 +123,14 @@
     <EmbeddedResource Include="Form.LoginPacientes.resx">
       <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBarraDeCarga.resx">
+      <DependentUpon>frmBarraDeCarga.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmExpediente.resx">
       <DependentUpon>FrmExpediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformaciónEnviada.resx">
+      <DependentUpon>frmInformaciónEnviada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPaciente.resx">
       <DependentUpon>FrmMenuPaciente.cs</DependentUpon>
