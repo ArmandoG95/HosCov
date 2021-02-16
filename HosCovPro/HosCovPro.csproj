@@ -58,6 +58,12 @@
     <Compile Include="Form.LoginPacientes.Designer.cs">
       <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPruebaCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPruebaCovid.Designer.cs">
+      <DependentUpon>frmPruebaCovid.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRegVacuna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form.LoginPacientes.resx">
       <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPruebaCovid.resx">
+      <DependentUpon>frmPruebaCovid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegVacuna.resx">
       <DependentUpon>FrmRegVacuna.cs</DependentUpon>
