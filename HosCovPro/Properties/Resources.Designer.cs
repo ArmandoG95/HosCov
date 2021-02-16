@@ -83,6 +83,16 @@ namespace HosCovPro.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap siluetaH {
+            get {
+                object obj = ResourceManager.GetObject("siluetaH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_02_12_at_12_46_15_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-02-12 at 12.46.15 PM", resourceCulture);

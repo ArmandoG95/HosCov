@@ -46,23 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agendar cita.cs">
+    <Compile Include="FrmAgendarCita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Agendar cita.Designer.cs">
-      <DependentUpon>Agendar cita.cs</DependentUpon>
+    <Compile Include="FrmAgendarCita.Designer.cs">
+      <DependentUpon>FrmAgendarCita.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form.Login.cs">
+    <Compile Include="Frm.Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form.Login.Designer.cs">
-      <DependentUpon>Form.Login.cs</DependentUpon>
+    <Compile Include="Frm.Login.Designer.cs">
+      <DependentUpon>Frm.Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form.LoginPacientes.cs">
+    <Compile Include="Frm.LoginPacientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form.LoginPacientes.Designer.cs">
-      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    <Compile Include="Frm.LoginPacientes.Designer.cs">
+      <DependentUpon>Frm.LoginPacientes.cs</DependentUpon>
     </Compile>
     <Compile Include="frmBarraDeCarga.cs">
       <SubType>Form</SubType>
@@ -114,14 +114,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Agendar cita.resx">
-      <DependentUpon>Agendar cita.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAgendarCita.resx">
+      <DependentUpon>FrmAgendarCita.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form.Login.resx">
-      <DependentUpon>Form.Login.cs</DependentUpon>
+    <EmbeddedResource Include="Frm.Login.resx">
+      <DependentUpon>Frm.Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form.LoginPacientes.resx">
-      <DependentUpon>Form.LoginPacientes.cs</DependentUpon>
+    <EmbeddedResource Include="Frm.LoginPacientes.resx">
+      <DependentUpon>Frm.LoginPacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBarraDeCarga.resx">
       <DependentUpon>frmBarraDeCarga.cs</DependentUpon>
@@ -178,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\silueta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siluetaH.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

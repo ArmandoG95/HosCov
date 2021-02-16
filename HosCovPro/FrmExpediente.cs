@@ -16,5 +16,16 @@ namespace HosCovPro
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            FrmMenuPaciente frmMenuPaciente = new FrmMenuPaciente();
+            frmMenuPaciente.Show();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

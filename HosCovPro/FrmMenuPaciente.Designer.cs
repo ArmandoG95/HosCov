@@ -80,6 +80,7 @@
             this.btnConsulta.TabIndex = 11;
             this.btnConsulta.Text = "Consulta virtual/presencial";
             this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
             // btnPrueba
             // 

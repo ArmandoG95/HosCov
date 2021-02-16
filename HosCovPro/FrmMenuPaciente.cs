@@ -24,7 +24,8 @@ namespace HosCovPro
 
         private void btnAnalisis_Click(object sender, EventArgs e)
         {
-
+            FrmExpediente frmExpediente = new FrmExpediente();
+            frmExpediente.Show();
         }
 
         private void btnPrueba_Click(object sender, EventArgs e)
@@ -39,6 +40,12 @@ namespace HosCovPro
             FrmRegVacuna FrmRegVacuna = new FrmRegVacuna();
             FrmRegVacuna.Show();
             this.Close();
+        }
+
+        private void btnConsulta_Click(object sender, EventArgs e)
+        {
+            frmAgendarCita frmAgendarCita = new frmAgendarCita();
+            frmAgendarCita.Show();
         }
     }
 }
