@@ -39,7 +39,7 @@
             this.lblEdad = new System.Windows.Forms.Label();
             this.rdbMasculino = new System.Windows.Forms.RadioButton();
             this.rdbFemenino = new System.Windows.Forms.RadioButton();
-            this.lblSexo = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
             this.lblEmbarazo = new System.Windows.Forms.Label();
             this.chcSi = new System.Windows.Forms.CheckBox();
             this.chcNo = new System.Windows.Forms.CheckBox();
@@ -135,7 +135,7 @@
             // 
             this.rdbMasculino.AutoSize = true;
             this.rdbMasculino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMasculino.Location = new System.Drawing.Point(73, 216);
+            this.rdbMasculino.Location = new System.Drawing.Point(95, 215);
             this.rdbMasculino.Name = "rdbMasculino";
             this.rdbMasculino.Size = new System.Drawing.Size(103, 25);
             this.rdbMasculino.TabIndex = 17;
@@ -147,7 +147,7 @@
             // 
             this.rdbFemenino.AutoSize = true;
             this.rdbFemenino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbFemenino.Location = new System.Drawing.Point(182, 216);
+            this.rdbFemenino.Location = new System.Drawing.Point(204, 216);
             this.rdbFemenino.Name = "rdbFemenino";
             this.rdbFemenino.Size = new System.Drawing.Size(100, 25);
             this.rdbFemenino.TabIndex = 18;
@@ -155,15 +155,15 @@
             this.rdbFemenino.Text = "Femenino";
             this.rdbFemenino.UseVisualStyleBackColor = true;
             // 
-            // lblSexo
+            // lblGenero
             // 
-            this.lblSexo.AutoSize = true;
-            this.lblSexo.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSexo.Location = new System.Drawing.Point(12, 215);
-            this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(55, 25);
-            this.lblSexo.TabIndex = 16;
-            this.lblSexo.Text = "Sexo";
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGenero.Location = new System.Drawing.Point(12, 215);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(77, 25);
+            this.lblGenero.TabIndex = 16;
+            this.lblGenero.Text = "Género";
             // 
             // lblEmbarazo
             // 
@@ -380,7 +380,7 @@
             this.Controls.Add(this.lblEmbarazo);
             this.Controls.Add(this.rdbFemenino);
             this.Controls.Add(this.rdbMasculino);
-            this.Controls.Add(this.lblSexo);
+            this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.txtApellidos);
@@ -409,7 +409,7 @@
         private System.Windows.Forms.Label lblEdad;
         private System.Windows.Forms.RadioButton rdbMasculino;
         private System.Windows.Forms.RadioButton rdbFemenino;
-        private System.Windows.Forms.Label lblSexo;
+        private System.Windows.Forms.Label lblGenero;
         private System.Windows.Forms.Label lblEmbarazo;
         private System.Windows.Forms.CheckBox chcSi;
         private System.Windows.Forms.CheckBox chcNo;
