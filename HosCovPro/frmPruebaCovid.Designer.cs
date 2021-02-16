@@ -47,6 +47,8 @@
             this.cmbEdad = new System.Windows.Forms.ComboBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.prgEnviado = new System.Windows.Forms.ProgressBar();
+            this.lblEnfermedades = new System.Windows.Forms.Label();
+            this.lstEnfermedades = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -204,6 +206,7 @@
             this.btnEnviar.TabIndex = 22;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // cmbEdad
             // 
@@ -330,12 +333,44 @@
             this.prgEnviado.Value = 12;
             this.prgEnviado.Click += new System.EventHandler(this.prgEnviado_Click);
             // 
+            // lblEnfermedades
+            // 
+            this.lblEnfermedades.AutoSize = true;
+            this.lblEnfermedades.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnfermedades.Location = new System.Drawing.Point(14, 302);
+            this.lblEnfermedades.Name = "lblEnfermedades";
+            this.lblEnfermedades.Size = new System.Drawing.Size(141, 25);
+            this.lblEnfermedades.TabIndex = 26;
+            this.lblEnfermedades.Text = "Enfermedades";
+            // 
+            // lstEnfermedades
+            // 
+            this.lstEnfermedades.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstEnfermedades.FormattingEnabled = true;
+            this.lstEnfermedades.ItemHeight = 21;
+            this.lstEnfermedades.Items.AddRange(new object[] {
+            "Diabetes",
+            "Hipertensión",
+            "Asma",
+            "SIDA",
+            "Alzheimer",
+            "Cáncer",
+            "Lupus",
+            "Poliomelitis",
+            "Ébola"});
+            this.lstEnfermedades.Location = new System.Drawing.Point(162, 302);
+            this.lstEnfermedades.Name = "lstEnfermedades";
+            this.lstEnfermedades.Size = new System.Drawing.Size(120, 67);
+            this.lstEnfermedades.TabIndex = 27;
+            // 
             // frmPruebaCovid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstEnfermedades);
+            this.Controls.Add(this.lblEnfermedades);
             this.Controls.Add(this.prgEnviado);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.cmbEdad);
@@ -382,5 +417,7 @@
         private System.Windows.Forms.ComboBox cmbEdad;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.ProgressBar prgEnviado;
+        private System.Windows.Forms.Label lblEnfermedades;
+        private System.Windows.Forms.ListBox lstEnfermedades;
     }
 }
