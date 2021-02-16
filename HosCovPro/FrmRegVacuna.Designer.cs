@@ -70,6 +70,7 @@
             this.lblCondiciones = new System.Windows.Forms.Label();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.pctLogo = new System.Windows.Forms.PictureBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.grpDatosPersonales.SuspendLayout();
             this.grpDatosDeContacto.SuspendLayout();
             this.grpCondiciones.SuspendLayout();
@@ -522,12 +523,23 @@
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(41, 679);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(141, 64);
+            this.btnRegresar.TabIndex = 29;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // FrmRegVacuna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1837, 870);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.grpCondiciones);
             this.Controls.Add(this.grpDatosDeContacto);
@@ -594,5 +606,6 @@
         private System.Windows.Forms.TextBox txtEspecifiqueCuales;
         private System.Windows.Forms.Label lblEspecifiqueCuales;
         private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

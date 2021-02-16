@@ -29,7 +29,20 @@ namespace HosCovPro
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FrmWelcome FrmWelcome = new FrmWelcome();
+            FrmWelcome.Show();
 
+        }
+
+        private void bttBack_Click(object sender, EventArgs e)
+        {
+
+            this.Close();
+        }
+
+        private void bttExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

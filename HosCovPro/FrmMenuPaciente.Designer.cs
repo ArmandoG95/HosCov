@@ -90,6 +90,7 @@
             this.btnPrueba.TabIndex = 12;
             this.btnPrueba.Text = "Prueba Covid-19";
             this.btnPrueba.UseVisualStyleBackColor = true;
+            this.btnPrueba.Click += new System.EventHandler(this.btnPrueba_Click);
             // 
             // btnRegistroVacuna
             // 
@@ -100,6 +101,7 @@
             this.btnRegistroVacuna.TabIndex = 13;
             this.btnRegistroVacuna.Text = "Registro Vacuna Covid-19";
             this.btnRegistroVacuna.UseVisualStyleBackColor = true;
+            this.btnRegistroVacuna.Click += new System.EventHandler(this.btnRegistroVacuna_Click);
             // 
             // lblSolicitar
             // 

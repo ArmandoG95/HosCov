@@ -164,5 +164,12 @@ namespace HosCovPro
             frmBarraDeCarga.Show();
 
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            FrmMenuPaciente FrmMenuPaciente = new FrmMenuPaciente();
+            FrmMenuPaciente.Show();
+            this.Close();
+        }
     }
 }

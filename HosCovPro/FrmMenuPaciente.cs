@@ -26,5 +26,19 @@ namespace HosCovPro
         {
 
         }
+
+        private void btnPrueba_Click(object sender, EventArgs e)
+        {
+            frmPruebaCovid frmPruebaCovid = new frmPruebaCovid();
+            frmPruebaCovid.Show();
+            this.Close();
+        }
+
+        private void btnRegistroVacuna_Click(object sender, EventArgs e)
+        {
+            FrmRegVacuna FrmRegVacuna = new FrmRegVacuna();
+            FrmRegVacuna.Show();
+            this.Close();
+        }
     }
 }

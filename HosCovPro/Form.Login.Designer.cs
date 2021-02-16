@@ -60,6 +60,7 @@
             this.bttPersonalMD.TabIndex = 1;
             this.bttPersonalMD.Text = "Personal Médico";
             this.bttPersonalMD.UseVisualStyleBackColor = true;
+            this.bttPersonalMD.Click += new System.EventHandler(this.bttPersonalMD_Click);
             // 
             // bttCrearNuevoPerfil
             // 

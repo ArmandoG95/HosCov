@@ -24,7 +24,9 @@ namespace HosCovPro
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-
+            FrmMenuPaciente FrmMenuPaciente = new FrmMenuPaciente();
+            FrmMenuPaciente.Show();
+            this.Close();
         }
     }
 }

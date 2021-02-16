@@ -45,27 +45,30 @@
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(12, 12);
+            this.pctLogo.Location = new System.Drawing.Point(16, 15);
+            this.pctLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(175, 80);
+            this.pctLogo.Size = new System.Drawing.Size(233, 98);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 
             // dttFecha
             // 
-            this.dttFecha.Location = new System.Drawing.Point(588, 12);
+            this.dttFecha.Location = new System.Drawing.Point(784, 15);
+            this.dttFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dttFecha.Name = "dttFecha";
-            this.dttFecha.Size = new System.Drawing.Size(200, 20);
+            this.dttFecha.Size = new System.Drawing.Size(265, 22);
             this.dttFecha.TabIndex = 1;
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.Location = new System.Drawing.Point(218, 172);
+            this.lblUsername.Location = new System.Drawing.Point(291, 212);
+            this.lblUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(124, 29);
+            this.lblUsername.Size = new System.Drawing.Size(150, 36);
             this.lblUsername.TabIndex = 2;
             this.lblUsername.Text = "Username";
             // 
@@ -73,44 +76,50 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(218, 218);
+            this.lblPassword.Location = new System.Drawing.Point(291, 268);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(120, 29);
+            this.lblPassword.Size = new System.Drawing.Size(147, 36);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(370, 181);
+            this.txtUsername.Location = new System.Drawing.Point(493, 223);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(186, 20);
+            this.txtUsername.Size = new System.Drawing.Size(247, 22);
             this.txtUsername.TabIndex = 5;
             this.txtUsername.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(370, 227);
+            this.txtPassword.Location = new System.Drawing.Point(493, 279);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(186, 20);
+            this.txtPassword.Size = new System.Drawing.Size(247, 22);
             this.txtPassword.TabIndex = 6;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
             // bttExit
             // 
             this.bttExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttExit.Location = new System.Drawing.Point(674, 384);
+            this.bttExit.Location = new System.Drawing.Point(899, 473);
+            this.bttExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttExit.Name = "bttExit";
-            this.bttExit.Size = new System.Drawing.Size(89, 33);
+            this.bttExit.Size = new System.Drawing.Size(119, 41);
             this.bttExit.TabIndex = 7;
             this.bttExit.Text = "Exit";
             this.bttExit.UseVisualStyleBackColor = true;
+            this.bttExit.Click += new System.EventHandler(this.bttExit_Click);
             // 
             // bttLogIn
             // 
             this.bttLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttLogIn.Location = new System.Drawing.Point(370, 276);
+            this.bttLogIn.Location = new System.Drawing.Point(493, 340);
+            this.bttLogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttLogIn.Name = "bttLogIn";
-            this.bttLogIn.Size = new System.Drawing.Size(139, 37);
+            this.bttLogIn.Size = new System.Drawing.Size(185, 46);
             this.bttLogIn.TabIndex = 8;
             this.bttLogIn.Text = "Log In";
             this.bttLogIn.UseVisualStyleBackColor = true;
@@ -120,27 +129,30 @@
             // 
             this.lblResetPassword.AutoSize = true;
             this.lblResetPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResetPassword.Location = new System.Drawing.Point(383, 329);
+            this.lblResetPassword.Location = new System.Drawing.Point(511, 405);
+            this.lblResetPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResetPassword.Name = "lblResetPassword";
-            this.lblResetPassword.Size = new System.Drawing.Size(106, 16);
+            this.lblResetPassword.Size = new System.Drawing.Size(130, 20);
             this.lblResetPassword.TabIndex = 9;
             this.lblResetPassword.Text = "Reset password";
             // 
             // bttBack
             // 
             this.bttBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttBack.Location = new System.Drawing.Point(25, 384);
+            this.bttBack.Location = new System.Drawing.Point(33, 473);
+            this.bttBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttBack.Name = "bttBack";
-            this.bttBack.Size = new System.Drawing.Size(89, 33);
+            this.bttBack.Size = new System.Drawing.Size(119, 41);
             this.bttBack.TabIndex = 10;
             this.bttBack.Text = "Back";
             this.bttBack.UseVisualStyleBackColor = true;
+            this.bttBack.Click += new System.EventHandler(this.bttBack_Click);
             // 
             // FrmLoginPersonalMedico
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.bttBack);
             this.Controls.Add(this.lblResetPassword);
             this.Controls.Add(this.bttLogIn);
@@ -151,6 +163,7 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.dttFecha);
             this.Controls.Add(this.pctLogo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmLoginPersonalMedico";
             this.Text = "FrmLoginPersonalMedico";
             this.Load += new System.EventHandler(this.FrmLoginPersonalMedico_Load);

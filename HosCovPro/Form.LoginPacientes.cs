@@ -36,6 +36,7 @@ namespace HosCovPro
         {
             FrmMenuPaciente frmMenuPaciente = new FrmMenuPaciente();
             frmMenuPaciente.Show();
+            this.Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
