@@ -70,7 +70,7 @@
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
             this.pctLogo.Location = new System.Drawing.Point(3, 11);
-            this.pctLogo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pctLogo.Margin = new System.Windows.Forms.Padding(5);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(207, 87);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -81,7 +81,7 @@
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidos.Location = new System.Drawing.Point(644, 128);
-            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellidos.Multiline = true;
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(343, 35);
@@ -91,7 +91,7 @@
             // 
             this.txtNombre.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(644, 68);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(343, 35);
@@ -152,7 +152,7 @@
             // 
             this.txtNum.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNum.Location = new System.Drawing.Point(761, 191);
-            this.txtNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNum.Margin = new System.Windows.Forms.Padding(4);
             this.txtNum.Multiline = true;
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(225, 35);
@@ -173,7 +173,7 @@
             // 
             this.txtDireccion.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.Location = new System.Drawing.Point(644, 254);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(343, 35);
@@ -194,7 +194,7 @@
             // 
             this.txtEmail.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(644, 319);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(343, 35);
@@ -205,7 +205,7 @@
             this.rdbFemenino.AutoSize = true;
             this.rdbFemenino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbFemenino.Location = new System.Drawing.Point(748, 378);
-            this.rdbFemenino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbFemenino.Margin = new System.Windows.Forms.Padding(4);
             this.rdbFemenino.Name = "rdbFemenino";
             this.rdbFemenino.Size = new System.Drawing.Size(123, 30);
             this.rdbFemenino.TabIndex = 35;
@@ -218,7 +218,7 @@
             this.rdbMasculino.AutoSize = true;
             this.rdbMasculino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbMasculino.Location = new System.Drawing.Point(603, 377);
-            this.rdbMasculino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbMasculino.Margin = new System.Windows.Forms.Padding(4);
             this.rdbMasculino.Name = "rdbMasculino";
             this.rdbMasculino.Size = new System.Drawing.Size(127, 30);
             this.rdbMasculino.TabIndex = 34;
@@ -267,7 +267,7 @@
             "Dolor o presión en el pecho",
             "Incapacidad para hablar o moverse"});
             this.chcSintomas.Location = new System.Drawing.Point(644, 422);
-            this.chcSintomas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chcSintomas.Margin = new System.Windows.Forms.Padding(4);
             this.chcSintomas.Name = "chcSintomas";
             this.chcSintomas.Size = new System.Drawing.Size(343, 106);
             this.chcSintomas.TabIndex = 37;
@@ -300,7 +300,7 @@
             "18:30",
             "19:20"});
             this.comboBox1.Location = new System.Drawing.Point(284, 382);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(101, 24);
             this.comboBox1.TabIndex = 39;
@@ -308,7 +308,7 @@
             // prgEnviado
             // 
             this.prgEnviado.Location = new System.Drawing.Point(43, 478);
-            this.prgEnviado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.prgEnviado.Margin = new System.Windows.Forms.Padding(4);
             this.prgEnviado.Name = "prgEnviado";
             this.prgEnviado.Size = new System.Drawing.Size(185, 38);
             this.prgEnviado.TabIndex = 41;
@@ -318,7 +318,7 @@
             // 
             this.btnEnviar.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviar.Location = new System.Drawing.Point(253, 478);
-            this.btnEnviar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(125, 38);
             this.btnEnviar.TabIndex = 40;
@@ -354,7 +354,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.lblTitulo);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAgendarCita";
             this.Text = "Agendar Cita";
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();

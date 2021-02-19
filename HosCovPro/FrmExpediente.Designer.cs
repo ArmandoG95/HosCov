@@ -55,7 +55,7 @@
             this.rdbFemenino = new System.Windows.Forms.RadioButton();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.lblEdad = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaDeNacimiento = new System.Windows.Forms.DateTimePicker();
             this.lblFechaNacimiento = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.lblCuarto = new System.Windows.Forms.Label();
@@ -80,7 +80,7 @@
             this.txtNombreCompletoAgenda = new System.Windows.Forms.TextBox();
             this.lblNombreCompletoAgend = new System.Windows.Forms.Label();
             this.grpAnalisisConsultasProgramadas = new System.Windows.Forms.GroupBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.mthAnálisis = new System.Windows.Forms.MonthCalendar();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.tbcExpediente.SuspendLayout();
@@ -145,7 +145,7 @@
             this.grpDatos.Controls.Add(this.grpSexo);
             this.grpDatos.Controls.Add(this.numericUpDown3);
             this.grpDatos.Controls.Add(this.lblEdad);
-            this.grpDatos.Controls.Add(this.dateTimePicker1);
+            this.grpDatos.Controls.Add(this.dtpFechaDeNacimiento);
             this.grpDatos.Controls.Add(this.lblFechaNacimiento);
             this.grpDatos.Controls.Add(this.numericUpDown2);
             this.grpDatos.Controls.Add(this.lblCuarto);
@@ -423,13 +423,13 @@
             this.lblEdad.TabIndex = 18;
             this.lblEdad.Text = "Edad:";
             // 
-            // dateTimePicker1
+            // dtpFechaDeNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(25, 478);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(352, 30);
-            this.dateTimePicker1.TabIndex = 17;
-            this.dateTimePicker1.Value = new System.DateTime(2002, 4, 6, 1, 31, 0, 0);
+            this.dtpFechaDeNacimiento.Location = new System.Drawing.Point(25, 478);
+            this.dtpFechaDeNacimiento.Name = "dtpFechaDeNacimiento";
+            this.dtpFechaDeNacimiento.Size = new System.Drawing.Size(352, 30);
+            this.dtpFechaDeNacimiento.TabIndex = 17;
+            this.dtpFechaDeNacimiento.Value = new System.DateTime(2002, 4, 6, 1, 31, 0, 0);
             // 
             // lblFechaNacimiento
             // 
@@ -699,7 +699,7 @@
             // 
             // grpAnalisisConsultasProgramadas
             // 
-            this.grpAnalisisConsultasProgramadas.Controls.Add(this.monthCalendar1);
+            this.grpAnalisisConsultasProgramadas.Controls.Add(this.mthAnálisis);
             this.grpAnalisisConsultasProgramadas.ForeColor = System.Drawing.Color.White;
             this.grpAnalisisConsultasProgramadas.Location = new System.Drawing.Point(20, 139);
             this.grpAnalisisConsultasProgramadas.Name = "grpAnalisisConsultasProgramadas";
@@ -708,11 +708,11 @@
             this.grpAnalisisConsultasProgramadas.TabStop = false;
             this.grpAnalisisConsultasProgramadas.Text = "Análisis y Consultas Programadas";
             // 
-            // monthCalendar1
+            // mthAnálisis
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(12, 35);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 0;
+            this.mthAnálisis.Location = new System.Drawing.Point(12, 35);
+            this.mthAnálisis.Name = "mthAnálisis";
+            this.mthAnálisis.TabIndex = 0;
             // 
             // btnExit
             // 
@@ -802,7 +802,7 @@
         private System.Windows.Forms.RadioButton rdbFemenino;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label lblEdad;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaDeNacimiento;
         private System.Windows.Forms.Label lblFechaNacimiento;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Label lblCuarto;
@@ -827,7 +827,7 @@
         private System.Windows.Forms.TextBox txtNombreCompletoAgenda;
         private System.Windows.Forms.Label lblNombreCompletoAgend;
         private System.Windows.Forms.GroupBox grpAnalisisConsultasProgramadas;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.MonthCalendar mthAnálisis;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnBack;
     }
