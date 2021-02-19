@@ -67,6 +67,7 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblApellidoPaterno = new System.Windows.Forms.Label();
             this.lblApellidoMaterno = new System.Windows.Forms.Label();
+            this.pctImagen = new System.Windows.Forms.PictureBox();
             this.tbpAnalisis = new System.Windows.Forms.TabPage();
             this.txtNombreCompletoAnalisis = new System.Windows.Forms.TextBox();
             this.lblNombreCompletoAnalisi = new System.Windows.Forms.Label();
@@ -80,7 +81,6 @@
             this.lblNombreCompletoAgend = new System.Windows.Forms.Label();
             this.grpAnalisisConsultasProgramadas = new System.Windows.Forms.GroupBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.tbcExpediente.SuspendLayout();
@@ -93,11 +93,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctImagen)).BeginInit();
             this.tbpAnalisis.SuspendLayout();
             this.tbpAgenda.SuspendLayout();
             this.grpOtrosProgramados.SuspendLayout();
             this.grpAnalisisConsultasProgramadas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbcExpediente
@@ -117,7 +117,7 @@
             this.tbpPerfil.BackColor = System.Drawing.Color.SteelBlue;
             this.tbpPerfil.Controls.Add(this.btnEditar);
             this.tbpPerfil.Controls.Add(this.grpDatos);
-            this.tbpPerfil.Controls.Add(this.pictureBox1);
+            this.tbpPerfil.Controls.Add(this.pctImagen);
             this.tbpPerfil.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpPerfil.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.tbpPerfil.Location = new System.Drawing.Point(4, 32);
@@ -565,6 +565,16 @@
             this.lblApellidoMaterno.TabIndex = 3;
             this.lblApellidoMaterno.Text = "Apellido Materno:";
             // 
+            // pctImagen
+            // 
+            this.pctImagen.Image = global::HosCovPro.Properties.Resources.siluetaH;
+            this.pctImagen.Location = new System.Drawing.Point(20, 24);
+            this.pctImagen.Name = "pctImagen";
+            this.pctImagen.Size = new System.Drawing.Size(124, 130);
+            this.pctImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctImagen.TabIndex = 0;
+            this.pctImagen.TabStop = false;
+            // 
             // tbpAnalisis
             // 
             this.tbpAnalisis.BackColor = System.Drawing.Color.SteelBlue;
@@ -704,16 +714,6 @@
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::HosCovPro.Properties.Resources.siluetaH;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 130);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -762,13 +762,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctImagen)).EndInit();
             this.tbpAnalisis.ResumeLayout(false);
             this.tbpAnalisis.PerformLayout();
             this.tbpAgenda.ResumeLayout(false);
             this.tbpAgenda.PerformLayout();
             this.grpOtrosProgramados.ResumeLayout(false);
             this.grpAnalisisConsultasProgramadas.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -814,7 +814,7 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblApellidoPaterno;
         private System.Windows.Forms.Label lblApellidoMaterno;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctImagen;
         private System.Windows.Forms.TabPage tbpAnalisis;
         private System.Windows.Forms.TextBox txtNombreCompletoAnalisis;
         private System.Windows.Forms.Label lblNombreCompletoAnalisi;

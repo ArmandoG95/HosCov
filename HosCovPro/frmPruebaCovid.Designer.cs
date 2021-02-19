@@ -45,7 +45,7 @@
             this.chcNo = new System.Windows.Forms.CheckBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.cmbEdad = new System.Windows.Forms.ComboBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.mntFechaDeNacimiento = new System.Windows.Forms.MonthCalendar();
             this.prgEnviado = new System.Windows.Forms.ProgressBar();
             this.lblEnfermedades = new System.Windows.Forms.Label();
             this.lstEnfermedades = new System.Windows.Forms.ListBox();
@@ -56,19 +56,20 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(127, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(169, 11);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(281, 27);
+            this.lblTitulo.Size = new System.Drawing.Size(361, 35);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Solicitud para prueba Covid";
             // 
             // pctLogo
             // 
             this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(536, 4);
-            this.pctLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.pctLogo.Location = new System.Drawing.Point(715, 5);
+            this.pctLogo.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(260, 125);
+            this.pctLogo.Size = new System.Drawing.Size(347, 154);
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 5;
             this.pctLogo.TabStop = false;
@@ -77,9 +78,10 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(12, 60);
+            this.lblNombre.Location = new System.Drawing.Point(16, 74);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(82, 25);
+            this.lblNombre.Size = new System.Drawing.Size(102, 31);
             this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre";
             // 
@@ -87,37 +89,41 @@
             // 
             this.lblApellidos.AutoSize = true;
             this.lblApellidos.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellidos.Location = new System.Drawing.Point(12, 104);
+            this.lblApellidos.Location = new System.Drawing.Point(16, 128);
+            this.lblApellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(93, 25);
+            this.lblApellidos.Size = new System.Drawing.Size(114, 31);
             this.lblApellidos.TabIndex = 7;
             this.lblApellidos.Text = "Apellidos";
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(121, 60);
+            this.txtNombre.Location = new System.Drawing.Point(161, 74);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(258, 29);
+            this.txtNombre.Size = new System.Drawing.Size(343, 35);
             this.txtNombre.TabIndex = 8;
             // 
             // txtApellidos
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(121, 109);
+            this.txtApellidos.Location = new System.Drawing.Point(161, 134);
+            this.txtApellidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtApellidos.Multiline = true;
             this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(258, 29);
+            this.txtApellidos.Size = new System.Drawing.Size(343, 35);
             this.txtApellidos.TabIndex = 9;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecha.Location = new System.Drawing.Point(589, 143);
+            this.lblFecha.Location = new System.Drawing.Point(785, 176);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(199, 25);
+            this.lblFecha.Size = new System.Drawing.Size(245, 31);
             this.lblFecha.TabIndex = 10;
             this.lblFecha.Text = "Fecha de Nacimiento";
             // 
@@ -125,9 +131,10 @@
             // 
             this.lblEdad.AutoSize = true;
             this.lblEdad.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEdad.Location = new System.Drawing.Point(12, 159);
+            this.lblEdad.Location = new System.Drawing.Point(16, 196);
+            this.lblEdad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEdad.Name = "lblEdad";
-            this.lblEdad.Size = new System.Drawing.Size(57, 25);
+            this.lblEdad.Size = new System.Drawing.Size(70, 31);
             this.lblEdad.TabIndex = 14;
             this.lblEdad.Text = "Edad";
             // 
@@ -135,9 +142,10 @@
             // 
             this.rdbMasculino.AutoSize = true;
             this.rdbMasculino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMasculino.Location = new System.Drawing.Point(95, 215);
+            this.rdbMasculino.Location = new System.Drawing.Point(127, 265);
+            this.rdbMasculino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbMasculino.Name = "rdbMasculino";
-            this.rdbMasculino.Size = new System.Drawing.Size(103, 25);
+            this.rdbMasculino.Size = new System.Drawing.Size(127, 30);
             this.rdbMasculino.TabIndex = 17;
             this.rdbMasculino.TabStop = true;
             this.rdbMasculino.Text = "Masculino";
@@ -147,9 +155,10 @@
             // 
             this.rdbFemenino.AutoSize = true;
             this.rdbFemenino.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbFemenino.Location = new System.Drawing.Point(204, 216);
+            this.rdbFemenino.Location = new System.Drawing.Point(272, 266);
+            this.rdbFemenino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbFemenino.Name = "rdbFemenino";
-            this.rdbFemenino.Size = new System.Drawing.Size(100, 25);
+            this.rdbFemenino.Size = new System.Drawing.Size(123, 30);
             this.rdbFemenino.TabIndex = 18;
             this.rdbFemenino.TabStop = true;
             this.rdbFemenino.Text = "Femenino";
@@ -159,9 +168,10 @@
             // 
             this.lblGenero.AutoSize = true;
             this.lblGenero.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenero.Location = new System.Drawing.Point(12, 215);
+            this.lblGenero.Location = new System.Drawing.Point(16, 265);
+            this.lblGenero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(77, 25);
+            this.lblGenero.Size = new System.Drawing.Size(93, 31);
             this.lblGenero.TabIndex = 16;
             this.lblGenero.Text = "Género";
             // 
@@ -169,9 +179,10 @@
             // 
             this.lblEmbarazo.AutoSize = true;
             this.lblEmbarazo.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmbarazo.Location = new System.Drawing.Point(12, 255);
+            this.lblEmbarazo.Location = new System.Drawing.Point(16, 314);
+            this.lblEmbarazo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmbarazo.Name = "lblEmbarazo";
-            this.lblEmbarazo.Size = new System.Drawing.Size(100, 25);
+            this.lblEmbarazo.Size = new System.Drawing.Size(123, 31);
             this.lblEmbarazo.TabIndex = 19;
             this.lblEmbarazo.Text = "Embarazo";
             // 
@@ -179,9 +190,10 @@
             // 
             this.chcSi.AutoSize = true;
             this.chcSi.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chcSi.Location = new System.Drawing.Point(118, 257);
+            this.chcSi.Location = new System.Drawing.Point(157, 316);
+            this.chcSi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chcSi.Name = "chcSi";
-            this.chcSi.Size = new System.Drawing.Size(43, 25);
+            this.chcSi.Size = new System.Drawing.Size(52, 30);
             this.chcSi.TabIndex = 20;
             this.chcSi.Text = "Si";
             this.chcSi.UseVisualStyleBackColor = true;
@@ -190,9 +202,10 @@
             // 
             this.chcNo.AutoSize = true;
             this.chcNo.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chcNo.Location = new System.Drawing.Point(182, 255);
+            this.chcNo.Location = new System.Drawing.Point(243, 314);
+            this.chcNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chcNo.Name = "chcNo";
-            this.chcNo.Size = new System.Drawing.Size(56, 29);
+            this.chcNo.Size = new System.Drawing.Size(67, 35);
             this.chcNo.TabIndex = 21;
             this.chcNo.Text = "No";
             this.chcNo.UseVisualStyleBackColor = true;
@@ -200,9 +213,10 @@
             // btnEnviar
             // 
             this.btnEnviar.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Location = new System.Drawing.Point(694, 407);
+            this.btnEnviar.Location = new System.Drawing.Point(925, 501);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(94, 31);
+            this.btnEnviar.Size = new System.Drawing.Size(125, 38);
             this.btnEnviar.TabIndex = 22;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -313,22 +327,25 @@
             "98",
             "99",
             "100"});
-            this.cmbEdad.Location = new System.Drawing.Point(121, 159);
+            this.cmbEdad.Location = new System.Drawing.Point(161, 196);
+            this.cmbEdad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbEdad.Name = "cmbEdad";
-            this.cmbEdad.Size = new System.Drawing.Size(89, 29);
+            this.cmbEdad.Size = new System.Drawing.Size(117, 34);
             this.cmbEdad.TabIndex = 23;
             // 
-            // monthCalendar1
+            // mntFechaDeNacimiento
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(536, 173);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 24;
+            this.mntFechaDeNacimiento.Location = new System.Drawing.Point(715, 213);
+            this.mntFechaDeNacimiento.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.mntFechaDeNacimiento.Name = "mntFechaDeNacimiento";
+            this.mntFechaDeNacimiento.TabIndex = 24;
             // 
             // prgEnviado
             // 
-            this.prgEnviado.Location = new System.Drawing.Point(536, 407);
+            this.prgEnviado.Location = new System.Drawing.Point(715, 501);
+            this.prgEnviado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prgEnviado.Name = "prgEnviado";
-            this.prgEnviado.Size = new System.Drawing.Size(139, 31);
+            this.prgEnviado.Size = new System.Drawing.Size(185, 38);
             this.prgEnviado.TabIndex = 25;
             this.prgEnviado.Value = 12;
             this.prgEnviado.Click += new System.EventHandler(this.prgEnviado_Click);
@@ -337,9 +354,10 @@
             // 
             this.lblEnfermedades.AutoSize = true;
             this.lblEnfermedades.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnfermedades.Location = new System.Drawing.Point(14, 302);
+            this.lblEnfermedades.Location = new System.Drawing.Point(19, 372);
+            this.lblEnfermedades.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEnfermedades.Name = "lblEnfermedades";
-            this.lblEnfermedades.Size = new System.Drawing.Size(141, 25);
+            this.lblEnfermedades.Size = new System.Drawing.Size(173, 31);
             this.lblEnfermedades.TabIndex = 26;
             this.lblEnfermedades.Text = "Enfermedades";
             // 
@@ -347,7 +365,7 @@
             // 
             this.lstEnfermedades.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstEnfermedades.FormattingEnabled = true;
-            this.lstEnfermedades.ItemHeight = 21;
+            this.lstEnfermedades.ItemHeight = 26;
             this.lstEnfermedades.Items.AddRange(new object[] {
             "Diabetes",
             "Hipertensión",
@@ -358,21 +376,22 @@
             "Lupus",
             "Poliomelitis",
             "Ébola"});
-            this.lstEnfermedades.Location = new System.Drawing.Point(162, 302);
+            this.lstEnfermedades.Location = new System.Drawing.Point(216, 372);
+            this.lstEnfermedades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstEnfermedades.Name = "lstEnfermedades";
-            this.lstEnfermedades.Size = new System.Drawing.Size(120, 67);
+            this.lstEnfermedades.Size = new System.Drawing.Size(159, 82);
             this.lstEnfermedades.TabIndex = 27;
             // 
             // frmPruebaCovid
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.lstEnfermedades);
             this.Controls.Add(this.lblEnfermedades);
             this.Controls.Add(this.prgEnviado);
-            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.mntFechaDeNacimiento);
             this.Controls.Add(this.cmbEdad);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.chcNo);
@@ -389,6 +408,7 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.lblTitulo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmPruebaCovid";
             this.Text = "Solicitud Prueba Covid";
             ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
@@ -415,7 +435,7 @@
         private System.Windows.Forms.CheckBox chcNo;
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.ComboBox cmbEdad;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.MonthCalendar mntFechaDeNacimiento;
         private System.Windows.Forms.ProgressBar prgEnviado;
         private System.Windows.Forms.Label lblEnfermedades;
         private System.Windows.Forms.ListBox lstEnfermedades;

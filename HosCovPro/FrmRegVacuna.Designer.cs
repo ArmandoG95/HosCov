@@ -82,7 +82,7 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(313, 30);
+            this.lblTitulo.Location = new System.Drawing.Point(334, 32);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(984, 38);
             this.lblTitulo.TabIndex = 1;
